@@ -1,0 +1,255 @@
+@import url('../fonts/stylesheet.css');
+
+body{
+    background-color: black;
+    font-family: 'Playfair Display';
+}
+.main_heading_news{
+    color: white;    
+}
+.main_heading_news h2{
+    font-size: 54px;
+}
+.main_heading_news h3{
+    font-size: 38px;
+}
+.main_heading_news p{
+    padding: 0px 40px;
+}
+.news_padding{
+    padding-top: 20px;
+    padding: 30px;
+}
+
+.s-collection-img{
+    padding-bottom: 30px;
+}
+.s-collection-img img{
+    height: 350px;
+    width: 100%;
+    object-fit: cover;
+    position: relative;
+}
+.s-collection-img-top img{
+    height: 400px;
+    width: 90%;
+    object-fit: cover;
+    position: relative;
+    margin-left: 50px;
+    margin-bottom: 20px;
+    padding: 0px 50px;
+}
+.ted-talk-poster{
+    height: 100%;
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* 
+.owl-item  img {
+    margin-right: 10px; 
+    background:powderblue;
+    height: 250px;
+    object-fit: cover;
+  }
+  
+  
+  .owl-carousel .item {
+    text-align: center;
+    padding-top: 20px;
+  }
+  
+  .owl-carousel .item .center img{
+    transform: scale(1.2);
+  }
+  
+  .owl-carousel1 .nav-btn{
+    height: 47px;
+    position: absolute;
+    width: 80%;
+    cursor: pointer;
+    top: 50%;
+    width: 26px;
+    transform: translate(-16%, -51%)
+  }
+  
+  .owl-carousel .owl-prev.disabled,
+  .owl-carousel .owl-next.disabled{
+    pointer-events: none;
+    opacity: 0.2;
+  }
+  
+  .owl-carousel1 .prev-slide{
+    background: url('../icons/back-arrow.png') no-repeat scroll 0 0;
+    left: -33px;
+  }
+  .owl-carousel1 .next-slide{
+    background: url('../icons/right-arrow.png') no-repeat scroll 0 0;
+    right: -33px;
+  } */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer{
+    font-family: 'Lato';
+    color: white;
+    background-color: #141414;
+
+}
+.footer-shops{
+    list-style-type: none;
+    padding: 30px 0px;
+}
+.footer-shops-h{
+    margin-bottom: 20px;
+}
+.footer-shops a{
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+}
+.footer-shops li a i:hover{
+    background-color: #00a5dc;
+    color: white;
+    border: 1px solid #00a5dc;
+}
+.footer-shops a:hover{
+    color: orange;
+}
+.footer-shops li i{
+    color: black;
+    background-color: white;
+    border: 1px solid white;
+    padding: 8px 9px;
+    border-radius: 50%;
+    margin-right: 5px;
+    margin-bottom: 30px;
+}
+.email_box{
+    margin-top: 20px;
+    border: 1px solid #535353;
+    border-right: 0px;
+    background-color: #141414;
+    color: #535353;
+    font-size: 12px;
+    padding: 5px;
+    margin-left: 15px;
+    width: 100%;
+    display: flex;
+}
+.button-submit{
+    height: 30px;
+    margin-top: 20px;
+    background-color: #535353;
+    border: 1px solid #535353;
+    border-radius: 0px;
+    color: white;
+    padding: 3px 10px;
+    font-size: 14px;
+}
+.button-submit:hover{
+    background-color: orange;
+    color: white !important;
+}
+.button-submit h6:hover{
+    z-index: 99999;
+}
+
+
+.gal{
+    background-color: black;
+    min-height: 100vh;
+    padding: 40px 0;
+}
+.container.gallery-container {
+    background-color: #141414;
+    color: #141414;
+    min-height: 100vh;
+    padding: 30px 50px;
+}
+
+.gallery-container h1 {
+    text-align: center;
+    margin-top: 50px;
+    font-family: 'Droid Sans', sans-serif;
+    font-weight: bold;
+}
+
+.gallery-container p.page-description {
+    text-align: center;
+    margin: 25px auto;
+    font-size: 18px;
+    color: #999;
+}
+
+.tz-gallery {
+    padding: 40px;
+    margin: 20px;
+}
+
+/* Override bootstrap column paddings */
+.tz-gallery .row > div {
+    padding: 2px;
+}
+
+.tz-gallery .lightbox img {
+    width: 100%;
+    border-radius: 0;
+    position: relative;
+}
+
+.tz-gallery .lightbox:before {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -13px;
+    margin-left: -13px;
+    opacity: 0;
+    color: #141414;
+    font-size: 26px;
+    font-family: 'Glyphicons Halflings';
+    content: '\e003';
+    pointer-events: none;
+    z-index: 9000;
+    transition: 0.4s;
+}
+
+
+.tz-gallery .lightbox:after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    background-color: rgba(46, 132, 206, 0.7);
+    content: '';
+    transition: 0.4s;
+}
+
+.tz-gallery .lightbox:hover:after,
+.tz-gallery .lightbox:hover:before {
+    opacity: 1;
+}
+
+.baguetteBox-button {
+    background-color: transparent !important;
+}
+
+@media(max-width: 768px) {
+    body {
+        padding: 0;
+    }
+}
